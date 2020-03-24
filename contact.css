@@ -1,0 +1,194 @@
+/***************************************************************BASIC SETUP******************************************************/
+@font-face{
+	src:url('fonts/Teko-Bold.ttf') ;
+	font-family: rubel ;
+}
+@font-face{
+	src:url(fonts/Prompt-Light.ttf) ;
+	font-family: kanij ;
+}
+.container {
+	width: 95% ;
+	margin: auto;
+}
+/*******************************************************START HEADER AREA DESIGN******************************************************/
+.header-area {
+	padding: 40px 0 ;
+	background: 	#b3b3b3 ; 
+
+}
+.header-content .logo-area {
+	width: 30% ;
+}
+.header-content .logo-area .icon {
+	display: none
+}
+.header-content .logo-area a {
+	margin: 0 ;
+	margin-left: 5px ;
+	letter-spacing: 5px ;
+	font-family: kanij ;
+	font-size: 30px ;
+	color: #fff ;
+}
+.header-content .menu-area {
+	float: right;
+	width: 70% ;
+	margin-top: -30px;
+}
+.header-content .menu-area ul {
+	float: right;
+}
+.header-content .menu-area ul li {
+	display: inline-block;
+}
+.header-content .menu-area ul li a {
+	text-decoration: none;
+	margin-left: 30px ;
+	letter-spacing: 2px ;
+	border: 2px solid #bf4040 ;
+	border-radius: 25px ;
+	padding: 10px 20px ;
+	color: #fff ;
+}
+.header-content .menu-area ul .active a {
+	color: 	#bf4040 ;
+}
+.header-content .menu-area ul li a:hover {
+	color: #fff ;
+	background: #bf4040 ;
+}
+/*-------------------------------------*/
+body{
+	background: #b3b3b3;
+	}
+.contact{
+	width: 500px;
+	background:rgba(44, 62, 80,0.7);
+	padding: 30px 60px;
+	margin: 50px auto;
+	border-radius: 10px;
+	font-family: 'Saira Semi Condensed', sans-serif;
+}
+.contact h2{
+	font-size: 36px;
+	text-align: center;
+	margin: 5px;
+	color: #fff;
+}
+.contact hr{
+	width: 80px;
+	border-top: 4px solid #f1c40f;
+	border-bottom: 0;
+	border-left: 0;
+	border-right: 0;
+}
+.contact label{
+	display:block;
+	color: #fff;
+	font-size: 18px;
+	margin-top: 10px;
+}
+.contact input,
+.contact textarea{
+	width: 100%;
+	box-sizing: border-box;
+	background: transparent;
+	color: #fff;
+	font-size: 16px;
+	border: 1px solid #ffffff;
+	padding: 4px 8px;
+	font-family: 'Saira Semi Condensed', sans-serif;
+	margin: 5px 0;
+}
+.contact input:hover,
+.contact textarea:hover{
+	border: 1px solid rgba(241, 196, 15,1.0);
+}
+.contact input:focus,
+.contact textarea:focus{
+	border: 1px solid rgba(241, 196, 15,1.0);
+}
+.contact input[type="submit"]{
+	width: 20%;
+	transition: 0.5s;
+	cursor: pointer;
+}
+.contact input[type="submit"]:hover{
+	background: rgba(241, 196, 15,1.0);
+	border: 1px solid rgba(241, 196, 15,1.0);
+}
+.half1{
+	width: 42%;
+	float:left;
+	margin-right: 16%;
+
+}
+.half2{
+	overflow: hidden;
+	width: 42%;
+
+}
+.contact span{
+	color: rgba(241, 196, 15,1.0);
+}
+.half1{
+	position: relative;
+}
+
+.icon1{
+	background: rgba(241, 196, 15,1.0);
+	color: #fff;
+	width: 30px;
+	text-align: center;
+	padding: 5px;
+	position: absolute;
+	top: 36px;
+	left: -40px;
+}
+.icon2{
+	background: rgba(241, 196, 15,1.0);
+	color: #fff;
+	width: 30px;
+	text-align: center;
+	padding: 5px;
+	position: absolute;
+	top: 36px;
+	left: 250px;
+}
+.icon3{
+	background: rgba(241, 196, 15,1.0);
+	color: #fff;
+	width: 30px;
+	text-align: center;
+	padding: 5px;
+	position: absolute;
+	top: 36px;
+	left: -40px;
+}
+.icon-box{
+	position: relative;
+}
+.footer-area {
+	padding: 10px 0px ;
+	background: gray ;
+	text-align: center;
+}
+.footer-area hr {
+	margin: 0 ;
+}
+.footer-area p {
+	font-size: 18px ;
+}
+.footer-area a {
+	text-decoration: none;
+	color: white ;
+	font-size: 20px ;
+} 
+.footer-area a:hover {
+	color: lime ;
+} 
+.footer-area ul li {
+	display: inline-block;
+	padding-right: 30px ;
+}
